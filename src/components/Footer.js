@@ -21,8 +21,8 @@ const Footer = () => {
                 <a href="mailto:abdurrahmaanchimalo5@gmail.com">abdurrahmaanchimalo5@gmail.com</a>
               </div>
               <div className="contact-item">
-                <span className="contact-icon">📧</span>
-                <a href="0979663634">0979663634</a>
+                <span className="contact-icon">📞</span>
+                <a href="tel:0979663634">0979663634</a>
               </div>
               <div className="contact-item">
                 <span className="contact-icon">📍</span>
