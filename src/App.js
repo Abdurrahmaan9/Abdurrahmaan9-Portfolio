@@ -26,57 +26,57 @@ function App() {
       ],
       technologies: ["Elixir","Phoenix", "JavaScript", "PostgreSQL","MSSQL", "REST APIs", "Git", "Docker"]
     },
-    {
-      id: 1,
-      title: "Frontend Developer",
-      company: "Tech Solutions Inc",
-      period: "2022 - 2023",
-      location: "Remote",
-      description: "Focused on creating beautiful and functional user interfaces for various client projects.",
-      responsibilities: [
-        "Built responsive user interfaces using React and modern CSS frameworks",
-        "Optimized application performance and user experience",
-        "Worked with design teams to implement pixel-perfect designs",
-        "Integrated third-party APIs and services",
-        "Mentored junior developers and conducted code reviews",
-        "Implemented state management solutions and component libraries"
-      ],
-      technologies: ["React", "JavaScript", "CSS3", "SASS", "Git", "REST APIs", "Redux", "Material-UI", "Responsive Design"]
-    },
-    {
-      id: 2,
-      title: "Full Stack Developer",
-      company: "Digital Innovations",
-      period: "2021 - 2022",
-      location: "Zambia",
-      description: "Developed end-to-end solutions for various client projects, from concept to deployment.",
-      responsibilities: [
-        "Developed full-stack applications from concept to deployment",
-        "Designed and implemented database schemas and API endpoints",
-        "Deployed applications using cloud services and CI/CD pipelines",
-        "Worked directly with clients to understand requirements and deliver solutions",
-        "Maintained and updated existing applications and systems",
-        "Implemented authentication and authorization systems"
-      ],
-      technologies: ["JavaScript", "React", "Node.js", "Express.js", "MongoDB", "Git", "AWS", "Docker", "JWT", "REST APIs"]
-    },
-    {
-      id: 3,
-      title: "Junior Developer",
-      company: "StartupXYZ",
-      period: "2020 - 2021",
-      location: "Remote",
-      description: "Started my journey in software development with a focus on learning and growth in web technologies.",
-      responsibilities: [
-        "Assisted in developing web applications and features",
-        "Learned modern development practices and tools",
-        "Participated in team meetings and project planning",
-        "Fixed bugs and implemented small features",
-        "Contributed to documentation and testing efforts",
-        "Built basic CRUD applications and user interfaces"
-      ],
-      technologies: ["HTML", "CSS", "JavaScript", "React", "Git", "Agile", "Bootstrap", "JSON", "Local Storage"]
-    }
+    // {
+    //   id: 1,
+    //   title: "Frontend Developer",
+    //   company: "Tech Solutions Inc",
+    //   period: "2022 - 2023",
+    //   location: "Remote",
+    //   description: "Focused on creating beautiful and functional user interfaces for various client projects.",
+    //   responsibilities: [
+    //     "Built responsive user interfaces using React and modern CSS frameworks",
+    //     "Optimized application performance and user experience",
+    //     "Worked with design teams to implement pixel-perfect designs",
+    //     "Integrated third-party APIs and services",
+    //     "Mentored junior developers and conducted code reviews",
+    //     "Implemented state management solutions and component libraries"
+    //   ],
+    //   technologies: ["React", "JavaScript", "CSS3", "SASS", "Git", "REST APIs", "Redux", "Material-UI", "Responsive Design"]
+    // },
+    // {
+    //   id: 2,
+    //   title: "Full Stack Developer",
+    //   company: "Digital Innovations",
+    //   period: "2021 - 2022",
+    //   location: "Zambia",
+    //   description: "Developed end-to-end solutions for various client projects, from concept to deployment.",
+    //   responsibilities: [
+    //     "Developed full-stack applications from concept to deployment",
+    //     "Designed and implemented database schemas and API endpoints",
+    //     "Deployed applications using cloud services and CI/CD pipelines",
+    //     "Worked directly with clients to understand requirements and deliver solutions",
+    //     "Maintained and updated existing applications and systems",
+    //     "Implemented authentication and authorization systems"
+    //   ],
+    //   technologies: ["JavaScript", "React", "Node.js", "Express.js", "MongoDB", "Git", "AWS", "Docker", "JWT", "REST APIs"]
+    // },
+    // {
+    //   id: 3,
+    //   title: "Junior Developer",
+    //   company: "StartupXYZ",
+    //   period: "2020 - 2021",
+    //   location: "Remote",
+    //   description: "Started my journey in software development with a focus on learning and growth in web technologies.",
+    //   responsibilities: [
+    //     "Assisted in developing web applications and features",
+    //     "Learned modern development practices and tools",
+    //     "Participated in team meetings and project planning",
+    //     "Fixed bugs and implemented small features",
+    //     "Contributed to documentation and testing efforts",
+    //     "Built basic CRUD applications and user interfaces"
+    //   ],
+    //   technologies: ["HTML", "CSS", "JavaScript", "React", "Git", "Agile", "Bootstrap", "JSON", "Local Storage"]
+    // }
   ];
 
   return (
