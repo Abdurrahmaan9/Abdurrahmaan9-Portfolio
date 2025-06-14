@@ -26,23 +26,18 @@ function App() {
       ],
       technologies: ["Elixir","Phoenix", "JavaScript", "PostgreSQL","MSSQL", "REST APIs", "Git", "Docker"]
     },
-    // {
-    //   id: 1,
-    //   title: "Frontend Developer",
-    //   company: "Tech Solutions Inc",
-    //   period: "2022 - 2023",
-    //   location: "Remote",
-    //   description: "Focused on creating beautiful and functional user interfaces for various client projects.",
-    //   responsibilities: [
-    //     "Built responsive user interfaces using React and modern CSS frameworks",
-    //     "Optimized application performance and user experience",
-    //     "Worked with design teams to implement pixel-perfect designs",
-    //     "Integrated third-party APIs and services",
-    //     "Mentored junior developers and conducted code reviews",
-    //     "Implemented state management solutions and component libraries"
-    //   ],
-    //   technologies: ["React", "JavaScript", "CSS3", "SASS", "Git", "REST APIs", "Redux", "Material-UI", "Responsive Design"]
-    // },
+    {
+      id: 1,
+      title: "Freelancer",
+      period: "2022 - 2023",
+      location: "Remote",
+      description: "I Designed and developed a school website as a final project using HTML, CSS and Bootstrap for Front-end and JavaScript for Back-end.",
+      responsibilities: [
+        "Built responsive user interfaces using HTML and bootstrap",
+        "Optimized application performance and user experience",
+      ],
+      technologies: ["HTML", "JavaScript", "CSS", "BOOTSTRAP", "Git", "Responsive Design"]
+    },
     // {
     //   id: 2,
     //   title: "Full Stack Developer",
@@ -77,6 +72,22 @@ function App() {
     //   ],
     //   technologies: ["HTML", "CSS", "JavaScript", "React", "Git", "Agile", "Bootstrap", "JSON", "Local Storage"]
     // }
+  ];
+
+  const tech_stack = [
+    "Elixir",
+    "Python",
+    "React.js",
+    "Java",
+    "Javascript ES6+",
+    "Dart",
+    "C/C++",
+    "SQL",
+    "Git",
+    "Docker",
+    "REST APIs",
+    "PostgreSQL",
+    "MSSQL"
   ];
 
   return (
@@ -114,21 +125,27 @@ function App() {
               </FadeIn>
               <FadeIn delay={400}>
                 <p>
-                  I'm currently a software engineer at Probase Limited working under the Smartpay team 
+                  I'm currently a software engineer at <a href='https://probasegroup.com/' style={{color: "#00d4ff"}}>Probase Limited</a> working under the Smartpay team. At the same time, I'm undertaking my graduate degree in computer science at the <a href='https://www.cavendishza.org/#' style={{color: "#00d4ff"}}>Cavendish University</a>
                 </p>
               </FadeIn>
-              <FadeIn delay={600}>
+              {/* <FadeIn delay={600}>
                 <p>
                   With a strong foundation in both frontend and backend development, I strive to build applications that 
                   not only look great but also provide exceptional user experiences. I'm always open to learn new 
                   technologies and take on challenging projects that push me to the edge.
                 </p>
-              </FadeIn>
+              </FadeIn> */}
               <FadeIn delay={800}>
                 <p>
-                  When I'm not coding, you can find me exploring Content creating, Gaming, or sharing knowledge with the developer community. I believe in the power of technology to make a 
-                  positive impact on people's lives.
+                  Relevant Skills:
                 </p>
+                <ul className="tech-stack">
+                    {tech_stack.map(function (tech_item, i) {
+                      return (
+                        <li>{tech_item}</li>
+                      );
+                    })}
+                </ul>
               </FadeIn>
             </div>
             <div className="about-image">
@@ -203,10 +220,10 @@ function App() {
                         {experiences[selectedExperience].technologies.map((tech, index) => {
                           // Define primary technologies for each role
                           const primaryTechs = {
-                            0: ["React", "Node.js", "TypeScript", "MongoDB"], // Current role
-                            1: ["React", "JavaScript", "Redux"], // Frontend role
-                            2: ["JavaScript", "React", "Node.js", "MongoDB"], // Full stack role
-                            3: ["HTML", "CSS", "JavaScript", "React"] // Junior role
+                            0: ["Elixir","Phoenix", "JavaScript", "PostgreSQL","MSSQL", "REST APIs", "Git", "Docker"], // Current role
+                            1: ["HTML", "JavaScript", "CSS", "BOOTSTRAP", "Git", "Responsive Design"], // Freelancer role
+                            // 2: ["JavaScript", "React", "Node.js", "MongoDB"], // Full stack role
+                            // 3: ["HTML", "CSS", "JavaScript", "React"] // Junior role
                           };
                           
                           const isPrimary = primaryTechs[selectedExperience]?.includes(tech);
