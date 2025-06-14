@@ -3,6 +3,7 @@ import NavBar from './components/nav';
 import GridDistortion from './components/DistortedGrid';
 import Typewriter from './components/Typewriter';
 import FadeIn from './components/FadeIn';
+import Footer from './components/Footer';
 import { useState } from 'react';
 
 function App() {
@@ -151,7 +152,7 @@ function App() {
             <div className="about-image">
               <FadeIn delay={1000} duration={1200}>
                 <div className="image-card">
-                  <img alt="Abdurrahmaan9" src={"/assets/Mr-Robot.jpeg"} />
+                  <img alt="Abdurrahmaan9" src={"/assets/me1.jpg"} />
                   {/* <div className="image-placeholder">
                     <span>Photo Here</span>
                     <p>Add your profile picture</p>
@@ -258,6 +259,8 @@ function App() {
           </FadeIn>
         </div>
       </section>
+
+      <Footer />
     </>
   );
 }
