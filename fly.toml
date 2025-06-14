@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for abdurrahmaan9-portfolio on 2025-06-14T16:08:05Z
+# fly.toml app configuration file generated for abdurrahmaan9 on 2025-06-14T16:33:27Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'abdurrahmaan9-portfolio'
+app = 'abdurrahmaan9'
 primary_region = 'jnb'
 
 [build]
