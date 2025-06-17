@@ -29,7 +29,7 @@ const Navbar = () => {
       <div className="nav-container">
         {/* Logo/Name */}
         <div className="nav-logo">
-          <h2>Abdurrahmaan9</h2>
+          <h2>Abdurrahmaan</h2>
         </div>
 
         {/* Desktop Navigation */}
