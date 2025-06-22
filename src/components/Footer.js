@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer-content">
           <div className="footer-section">
-            <h3>Abdurrahmaan Chimalo</h3>
+            <h3>Abdur-rahmaan Chimalo</h3>
             <p>I'm passionate about creating innovative digital experiences and content.</p>
             <div className="social-links">
               <a href="https://www.youtube.com/@Abdurrahmaan9" target="_blank" rel="noopener noreferrer" className="social-link">
