@@ -9,10 +9,39 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer-content">
           <div className="footer-section">
-            <h3>Abdurrahmaan9</h3>
-            <p>Software Engineer passionate about creating innovative digital experiences.</p>
+            <h3>Abdurrahmaan Chimalo</h3>
+            <p>I'm passionate about creating innovative digital experiences and content.</p>
+            <div className="social-links">
+              <a href="https://www.youtube.com/@Abdurrahmaan9" target="_blank" rel="noopener noreferrer" className="social-link">
+                <span className="social-icon">🎥</span>
+                <span>YouTube</span>
+              </a>
+              <a href="https://www.instagram.com/_abdurrahmaan9/" target="_blank" rel="noopener noreferrer" className="social-link">
+                <span className="social-icon">🐙</span>
+                <span>Instagram</span>
+              </a>
+
+            </div>
           </div>
           
+          <div className="footer-section">
+            <h4>Connect</h4>
+            <div className="social-links">
+              <a href="https://github.com/abdurrahmaan9" target="_blank" rel="noopener noreferrer" className="social-link">
+                <span className="social-icon">🐙</span>
+                <span>GitHub</span>
+              </a>
+              <a href="https://linkedin.com/in/abdurrahmaan9" target="_blank" rel="noopener noreferrer" className="social-link">
+                <span className="social-icon">💼</span>
+                <span>LinkedIn</span>
+              </a>
+              <a href="https://twitter.com/abdurchimalo" target="_blank" rel="noopener noreferrer" className="social-link">
+                <span className="social-icon">🐦</span>
+                <span>Twitter</span>
+              </a>
+            </div>
+          </div>
+
           <div className="footer-section">
             <h4>Contact</h4>
             <div className="contact-info">
@@ -32,24 +61,6 @@ const Footer = () => {
                 <span className="contact-icon">💼</span>
                 <a href="https://probasegroup.com/" target="_blank" rel="noopener noreferrer">Probase Limited</a>
               </div>
-            </div>
-          </div>
-          
-          <div className="footer-section">
-            <h4>Connect</h4>
-            <div className="social-links">
-              <a href="https://github.com/abdurrahmaan9" target="_blank" rel="noopener noreferrer" className="social-link">
-                <span className="social-icon">🐙</span>
-                <span>GitHub</span>
-              </a>
-              <a href="https://linkedin.com/in/abdurrahmaan9" target="_blank" rel="noopener noreferrer" className="social-link">
-                <span className="social-icon">💼</span>
-                <span>LinkedIn</span>
-              </a>
-              <a href="https://twitter.com/abdurchimalo" target="_blank" rel="noopener noreferrer" className="social-link">
-                <span className="social-icon">🐦</span>
-                <span>Twitter</span>
-              </a>
             </div>
           </div>
         </div>

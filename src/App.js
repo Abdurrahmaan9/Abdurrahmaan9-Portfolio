@@ -126,9 +126,12 @@ function App() {
               </FadeIn>
               <FadeIn delay={400}>
                 <p>
-                  I'm currently a software engineer at <a href='https://probasegroup.com/' style={{color: "#00d4ff"}}>Probase Limited</a> working under the Smartpay team. At the same time, I'm undertaking my graduate degree in computer science at the <a href='https://www.cavendishza.org/#' style={{color: "#00d4ff"}}>Cavendish University</a>
+                I’m a software engineer at <a href="https://probasegroup.com/" style={{color: "#00d4ff"}}>Probase Limited</a>, where I work on the Smartpay team building payment integrations and fintech solutions. 
+                My role involves developing scalable backend services and supporting mission-critical financial systems. Alongside my work, 
+                I’m pursuing a Bachelor’s degree in Computer Science at <a href="https://www.cavendishza.org/#" style={{color: "#00d4ff"}}>Cavendish University</a>.
                 </p>
               </FadeIn>
+              
               {/* <FadeIn delay={600}>
                 <p>
                   With a strong foundation in both frontend and backend development, I strive to build applications that 
