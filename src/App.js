@@ -132,13 +132,6 @@ function App() {
                 </p>
               </FadeIn>
               
-              {/* <FadeIn delay={600}>
-                <p>
-                  With a strong foundation in both frontend and backend development, I strive to build applications that 
-                  not only look great but also provide exceptional user experiences. I'm always open to learn new 
-                  technologies and take on challenging projects that push me to the edge.
-                </p>
-              </FadeIn> */}
               <FadeIn delay={800}>
                 <p>
                   Relevant Skills:
@@ -156,10 +149,6 @@ function App() {
               <FadeIn delay={1000} duration={1200}>
                 <div className="image-card">
                   <img alt="Abdurrahmaan9" src={"/assets/me1.jpg"} />
-                  {/* <div className="image-placeholder">
-                    <span>Photo Here</span>
-                    <p>Add your profile picture</p>
-                  </div> */}
                 </div>
               </FadeIn>
             </div>
@@ -226,7 +215,7 @@ function App() {
                           const primaryTechs = {
                             0: ["Elixir","Phoenix", "JavaScript", "PostgreSQL","MSSQL", "REST APIs", "Git", "Docker"], // Current role
                             1: ["HTML", "JavaScript", "CSS", "BOOTSTRAP", "Git", "Responsive Design"], // Freelancer role
-                            // 2: ["JavaScript", "React", "Node.js", "MongoDB"], // Full stack role
+                            // 2: ["JavaScript", "React", "Node.js", "Postgres"], // Full stack role
                             // 3: ["HTML", "CSS", "JavaScript", "React"] // Junior role
                           };
                           
@@ -262,7 +251,8 @@ function App() {
           </FadeIn>
         </div>
       </section>
-
+      
+      {/* Footer section */}
       <Footer />
     </>
   );

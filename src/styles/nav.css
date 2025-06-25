@@ -119,17 +119,22 @@
 /* Mobile Navigation */
 .mobile-menu {
   display: none;
-  position: absolute;
-  top: 100%;
+  position: fixed;
+  top: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.98);
+  background: #111;
+  color: #fff;
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid #333;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
   transform: translateY(-100%);
   opacity: 0;
   transition: all 0.3s ease;
+  z-index: 2000;
+  width: 100%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .mobile-menu.active {
@@ -137,19 +142,24 @@
   opacity: 1;
 }
 
+body.no-scroll {
+  overflow: hidden;
+}
+
 .mobile-nav-item {
   padding: 1rem 2rem;
   font-size: 1.1rem;
   font-weight: 500;
-  color: #e0e0e0;
+  color: #fff;
   cursor: pointer;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid #222;
+  background: transparent;
   transition: all 0.3s ease;
 }
 
 .mobile-nav-item:hover {
-  background: rgba(255, 255, 255, 0.1);
-  color: #ffffff;
+  background: #222;
+  color: #fff;
   padding-left: 2.5rem;
 }
 
