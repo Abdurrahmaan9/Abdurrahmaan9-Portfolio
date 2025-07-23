@@ -12,7 +12,7 @@ function App() {
   const experiences = [
     {
       id: 0,
-      title: "Software Engineer",
+      title: "Honorary Software Engineer",
       company: "Probase Limited",
       period: "2025 - Present",
       location: "Zambia",
@@ -126,7 +126,7 @@ function App() {
               </FadeIn>
               <FadeIn delay={400}>
                 <p>
-                I’m a software engineer at <a href="https://probasegroup.com/" style={{color: "#00d4ff"}}>Probase Limited</a>, where I work on the Smartpay team building payment integrations and fintech solutions. 
+                I’m a Honorary software engineer at <a href="https://probasegroup.com/" style={{color: "#00d4ff"}}>Probase Limited</a>, where I work on the Smartpay team building payment integrations and fintech solutions. 
                 My role involves developing scalable backend services and supporting mission-critical financial systems. Alongside my work, 
                 I’m pursuing a Bachelor’s degree in Computer Science at <a href="https://www.cavendishza.org/#" style={{color: "#00d4ff"}}>Cavendish University</a>.
                 </p>
