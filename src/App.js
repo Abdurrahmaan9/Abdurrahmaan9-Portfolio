@@ -4,92 +4,18 @@ import GridDistortion from './components/DistortedGrid';
 import Typewriter from './components/Typewriter';
 import FadeIn from './components/FadeIn';
 import Footer from './components/Footer';
+import Projects from './components/Projects';
 import { useState } from 'react';
+import { projects, experiences, tech_stack } from './data';
 
 function App() {
   const [selectedExperience, setSelectedExperience] = useState(0);
 
-  const experiences = [
-    {
-      id: 0,
-      title: "Honorary Software Engineer",
-      company: "Probase Limited",
-      period: "2025 - Present",
-      location: "Zambia",
-      description: "Working on modern web applications and digital solutions for the Smartpay team, focusing on payment processing and financial technology solutions.",
-      responsibilities: [
-        "Develop and maintain web applications using Elixir/Phoenix and modern web technologies",
-        "Collaborate with cross-functional teams to deliver high-quality software solutions",
-        "Implement responsive design principles and ensure cross-browser compatibility",
-        "Participate in code reviews and contribute to team best practices",
-        "Work with databases and APIs to create seamless user experiences",
-        "Build and maintain payment processing systems and financial applications"
-      ],
-      technologies: ["Elixir","Phoenix", "JavaScript", "PostgreSQL","MSSQL", "REST APIs", "Git", "Docker"]
-    },
-    {
-      id: 1,
-      title: "Freelancer",
-      period: "2022 - 2023",
-      location: "Remote",
-      description: "I Designed and developed a school website as a final project using HTML, CSS and Bootstrap for Front-end and JavaScript for Back-end.",
-      responsibilities: [
-        "Built responsive user interfaces using HTML and bootstrap",
-        "Optimized application performance and user experience",
-      ],
-      technologies: ["HTML", "JavaScript", "CSS", "BOOTSTRAP", "Git", "Responsive Design"]
-    },
-    // {
-    //   id: 2,
-    //   title: "Full Stack Developer",
-    //   company: "Digital Innovations",
-    //   period: "2021 - 2022",
-    //   location: "Zambia",
-    //   description: "Developed end-to-end solutions for various client projects, from concept to deployment.",
-    //   responsibilities: [
-    //     "Developed full-stack applications from concept to deployment",
-    //     "Designed and implemented database schemas and API endpoints",
-    //     "Deployed applications using cloud services and CI/CD pipelines",
-    //     "Worked directly with clients to understand requirements and deliver solutions",
-    //     "Maintained and updated existing applications and systems",
-    //     "Implemented authentication and authorization systems"
-    //   ],
-    //   technologies: ["JavaScript", "React", "Node.js", "Express.js", "MongoDB", "Git", "AWS", "Docker", "JWT", "REST APIs"]
-    // },
-    // {
-    //   id: 3,
-    //   title: "Junior Developer",
-    //   company: "StartupXYZ",
-    //   period: "2020 - 2021",
-    //   location: "Remote",
-    //   description: "Started my journey in software development with a focus on learning and growth in web technologies.",
-    //   responsibilities: [
-    //     "Assisted in developing web applications and features",
-    //     "Learned modern development practices and tools",
-    //     "Participated in team meetings and project planning",
-    //     "Fixed bugs and implemented small features",
-    //     "Contributed to documentation and testing efforts",
-    //     "Built basic CRUD applications and user interfaces"
-    //   ],
-    //   technologies: ["HTML", "CSS", "JavaScript", "React", "Git", "Agile", "Bootstrap", "JSON", "Local Storage"]
-    // }
-  ];
+  
 
-  const tech_stack = [
-    "Elixir",
-    "Python",
-    "React.js",
-    "Java",
-    "Javascript ES6+",
-    "Dart",
-    "C/C++",
-    "SQL",
-    "Git",
-    "Docker",
-    "REST APIs",
-    "PostgreSQL",
-    "MSSQL"
-  ];
+  
+
+  
 
   return (
     <>
@@ -247,7 +173,10 @@ function App() {
             <h2>./ Projects ______________</h2>
           </FadeIn>
           <FadeIn delay={400}>
-            <p>Check out some of my recent projects and work.</p>
+            <p>Check out some of my projects and work.</p>
+          </FadeIn>
+          <FadeIn delay={600}>
+            <Projects projects={projects} />
           </FadeIn>
         </div>
       </section>
