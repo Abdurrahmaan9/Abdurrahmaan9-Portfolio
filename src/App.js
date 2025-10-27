@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Projects from './components/Projects';
 import { useState } from 'react';
 import { projects, experiences, tech_stack } from './data';
+import NeuralImageGraph from './components/NeuralImageGraph';
 
 function App() {
   const [selectedExperience, setSelectedExperience] = useState(0);
@@ -73,8 +74,11 @@ function App() {
             </div>
             <div className="about-image">
               <FadeIn delay={1000} duration={1200}>
-                <div className="image-card">
-                  <img alt="Abdurrahmaan9" src={"/assets/me1.jpg"} />
+                <div style={{ display: 'flex', justifyContent: 'center' }}>
+                  <NeuralImageGraph
+                    images={["/assets/me1.jpg", "/assets/me2.jpg", "/assets/Mr-Robot.jpeg",  "/assets/Mr-Robot.jpeg", "/assets/me2.jpg", "/assets/me2.jpg", "/assets/Mr-Robot.jpeg" ]}
+                    size={420}
+                  />
                 </div>
               </FadeIn>
             </div>
