@@ -185,51 +185,81 @@ export default function NeuralImageGraph({
           role="dialog"
           aria-modal="true"
           style={{
-            position: 'absolute',
-            inset: 0,
-            display: 'grid',
-            placeItems: 'center',
-            background: 'rgba(0,0,0,0.45)',
-            backdropFilter: 'blur(2px)',
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            backgroundColor: 'transparent',
+            backdropFilter: 'blur(4px)',
             animation: 'fadeIn 160ms ease-out',
             zIndex: 100,
+            padding: '20px',
+            cursor: 'zoom-out',
           }}
           onClick={() => setActive(null)}
         >
           <div
             onClick={(e) => e.stopPropagation()}
             style={{
-              width: Math.min(520, size * 0.9),
+              position: 'relative',
+              maxWidth: '90%',
+              maxHeight: '90%',
               borderRadius: 18,
               overflow: 'hidden',
-              border: '1px solid rgba(255,255,255,0.25)',
-              boxShadow: '0 20px 60px rgba(0,0,0,0.55)',
+              boxShadow: '0 20px 60px rgba(0,0,0,0.8)',
               background: '#0f0f0f',
+              cursor: 'default',
             }}
           >
             <div style={{ position: 'relative' }}>
-              <img src={active.src} alt="selected memory" style={{ width: '100%', display: 'block', maxHeight: 420, objectFit: 'cover' }} />
+              <img 
+                src={active.src} 
+                alt="Selected memory" 
+                style={{ 
+                  display: 'block', 
+                  maxWidth: '100%', 
+                  maxHeight: '80vh', 
+                  objectFit: 'contain',
+                  margin: '0 auto'
+                }} 
+              />
               <button
                 onClick={() => setActive(null)}
                 style={{
                   position: 'absolute',
-                  top: 8,
-                  right: 8,
-                  width: 34,
-                  height: 34,
-                  borderRadius: 8,
-                  background: 'rgba(0,0,0,0.6)',
-                  color: '#fff',
-                  border: '1px solid rgba(255,255,255,0.2)',
+                  top: 12,
+                  right: 12,
+                  width: 36,
+                  height: 36,
+                  borderRadius: '50%',
+                  background: 'rgba(0, 0, 0, 0.7)',
+                  color: 'white',
+                  border: 'none',
+                  fontSize: '20px',
+                  fontWeight: 'bold',
                   cursor: 'pointer',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  padding: 0,
+                  transition: 'all 0.2s ease',
+                }}
+                onMouseOver={(e) => {
+                  e.currentTarget.style.background = 'rgba(0, 0, 0, 0.9)';
+                  e.currentTarget.style.transform = 'scale(1.1)';
+                }}
+                onMouseOut={(e) => {
+                  e.currentTarget.style.background = 'rgba(0, 0, 0, 0.7)';
+                  e.currentTarget.style.transform = 'scale(1)';
                 }}
                 aria-label="Close"
               >
                 ×
               </button>
-            </div>
-            <div style={{ padding: '12px 14px', color: '#ddd' }}>
-              <div style={{ fontSize: 14, opacity: 0.8 }}>Click outside to close</div>
             </div>
           </div>
         </div>

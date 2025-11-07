@@ -1,53 +1,61 @@
 // Centralized data exports for App
 
 export const projects = [
-  {
-    title: "SmartPay Portal",
-    description: "A fintech payments dashboard with settlements, reconciliation, and real-time insights.",
-    image: "https://picsum.photos/seed/smartpay/800/450",
-    tech: ["Elixir", "Phoenix", "PostgreSQL", "Docker"],
-    live: "#",
-    source: "#"
+    {
+    title: "SyncIn 'E-Register'",
+    description: "A System that enables students mark their class attendance online by simply entering an OTP or scanning a QR Code, the System also Include staff sign-in time as they report for work",
+    image: "assets/projects/syncin.png",
+    tech: ["Elixir",  "Phoenix/LiveView", "JavaScript", "Tailwind CSS", "PostgreSQL"],
+    live: "#projects",
+    // source: "#"
   },
   {
-    title: "Portfolio v2",
-    description: "My personal portfolio with WebGL grid distortion and animated sections.",
-    image: "https://picsum.photos/seed/portfolio/800/450",
-    tech: ["React", "Three.js", "CSS"],
+    title: "SmartPAY Portal",
+    description: "A fintech Application that integrates ZRA payments, NAPSA payments, Nhima, WCFCB and many more.",
+    image: "assets/projects/smartpay.png",
+    tech: ["Elixir", "JavaScript", "Phoenix/LiveView", "Tailwind CSS", "PostgreSQL/MSSQL", "Docker"],
+    live: "#",
+    // source: "#"
+  },
+  {
+    title: "Mind Sanctuary",
+    description: "A youth empowerment platform that provides young people with wellbeing resources, mood tracker, and an anonymous peer support chat room .",
+    image: "assets/projects/mind_sanctuary.png",
+    tech: ["Elixir", "Phoenix/LiveView", "Tailwind CSS", "PostgreSQL"],
     live: "#projects",
-    source: "#"
+    // source: "#"
   },
   {
     title: "School Website",
-    description: "Responsive school website built as a final project with Bootstrap.",
-    image: "https://picsum.photos/seed/school/800/450",
+    description: "Responsive school website built to simplify school enrollments and provide a platform for parents to get updates and students easy access to study materials.",
+    image: "assets/projects/syncin.png",
     tech: ["HTML", "CSS", "Bootstrap", "JavaScript"],
-    live: "#",
-    source: "#"
+    live: "https://abdurrahmaan9.github.io/Water-solution-web-application/",
+    // source: "#"
   },
   {
-    title: "Portfolio v2",
-    description: "My personal portfolio with WebGL grid distortion and animated sections.",
-    image: "https://picsum.photos/seed/portfolio/800/450",
-    tech: ["React", "Three.js", "CSS"],
+    title: "Hackerthon Project",
+    description: "A water solution project that my team an i developed in order to educate people and halp them have access to safe drinkable water.",
+    image: "assets/projects/water.png",
+    tech: ["JavaScript", "HTML", "CSS"],
     live: "#projects",
-    source: "#"
+    // source: "#"
   },
   {
-    title: "Portfolio v2",
-    description: "My personal portfolio with WebGL grid distortion and animated sections.",
-    image: "https://picsum.photos/seed/portfolio/800/450",
-    tech: ["React", "Three.js", "CSS"],
+    title: "E-commerce Website",
+    description: "An E-commerce store that simulates the similar functionality of a real world E-commerce.",
+    image: "assets/projects/cart.png",
+    tech: ["JavaScript", "CSS", "HTML"],
     live: "#projects",
-    source: "#"
+    // source: "#"
   },
   {
-    title: "Portfolio v2",
-    description: "My personal portfolio with WebGL grid distortion and animated sections.",
-    image: "https://picsum.photos/seed/portfolio/800/450",
-    tech: ["React", "Three.js", "CSS"],
+    title: "Car Rental Application",
+    description: "A mobile application that reduces the stress of renting vehicles and simulates the most of the process, leaving only the crucial process to be done in person.",
+    image: "assets/projects/car_rental.png",
+    tech: ["Dart", "Flutter", "CSS"],
     live: "#projects",
-    source: "#"
+    // source: "#"
   }
 ];
 

@@ -76,7 +76,7 @@ function App() {
               <FadeIn delay={1000} duration={1200}>
                 <div style={{ display: 'flex', justifyContent: 'center' }}>
                   <NeuralImageGraph
-                    images={["/assets/me1.jpg", "/assets/me2.jpg", "/assets/Mr-Robot.jpeg",  "/assets/Mr-Robot.jpeg", "/assets/me2.jpg", "/assets/me2.jpg", "/assets/Mr-Robot.jpeg" ]}
+                    images={["/assets/me1.jpg", "/assets/me2.jpg", "/assets/me3.jpg",  "/assets/me4.jpg", "/assets/me5.jpg", "/assets/me10.jpg", "/assets/me8.jpg", "/assets/me9.jpg" ]}
                     size={420}
                   />
                 </div>
