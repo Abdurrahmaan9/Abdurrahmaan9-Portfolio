@@ -62,7 +62,7 @@ export const projects = [
 export const experiences = [
   {
     id: 0,
-    title: "Honorary Software Engineer",
+    title: "Software Engineer",
     company: "Probase Limited",
     period: "2025 - Present",
     location: "Zambia",

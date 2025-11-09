@@ -38,8 +38,8 @@ function App() {
           <h1>
             <Typewriter text="Hi, Abdur-rahmaan here." speed={150} delay={500} color="#00d4ff" />
           </h1>
-          <p>I'm a software engineer from Zambia with a love for creating innovative digital experiences. 
-          I specialize in modern web technologies and enjoy turning complex problems into simple solutions.</p>
+          <p>Software Engineer Based in Zambia 🇿🇲, focused on creating innovative digital experiences. 
+            I specialize in modern web technologies and enjoy turning complex problems into simple, effective solutions.</p>
         </div>
       </section>
 
@@ -53,9 +53,10 @@ function App() {
               </FadeIn>
               <FadeIn delay={400}>
                 <p>
-                I’m a Honorary software engineer at <a href="https://probasegroup.com/" style={{color: "#00d4ff"}}>Probase Limited</a>, where I work on the Smartpay team building payment integrations and fintech solutions. 
-                My role involves developing scalable backend services and supporting mission-critical financial systems. Alongside my work, 
-                I’m pursuing a Bachelor’s degree in Computer Science at <a href="https://www.cavendishza.org/#" style={{color: "#00d4ff"}}>Cavendish University</a>.
+                I am a Software Engineer at <a href="https://probasegroup.com/" style={{color: "#00d4ff"}}>Probase Limited</a>, contributing to the Smartpay team. My primary focus is building robust payment integrations and innovative fintech solutions. 
+                This role involves developing and maintaining scalable Full-stack services that support mission-critical financial systems.
+                <br />
+                Concurrently, I'm furthering my knowledge by pursuing a Bachelor’s degree in Computer Science at <a href="https://www.cavendishza.org/#" style={{color: "#00d4ff"}}>Cavendish University</a>.
                 </p>
               </FadeIn>
               
